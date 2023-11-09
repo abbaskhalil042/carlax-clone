@@ -1,0 +1,9 @@
+
+
+.shape{
+    width: 2rem;
+    height: 2rem;
+    background-color: orange;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    margin: 3rem 0 3rem 0;
+}
