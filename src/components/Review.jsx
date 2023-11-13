@@ -1,11 +1,12 @@
 import React from "react";
 import { Carousel } from "@material-tailwind/react";
 import TriangleShape from "./TriangleShape";
+import "../styles/review.css"
 
 const Review = () => {
   return (
-    <div>
-      <div className="up bg-[#493834] w-full  ">
+    <div className="review-up"> 
+      <div className=" text bg-[#493834] w-full  ">
     
        <div className="flex flex-col justify-center items-center ">
             <TriangleShape />
@@ -33,7 +34,7 @@ const Review = () => {
         )}
       >
    
-        <div className="flex flex-col justify-center items-center">
+        <div className="caraosel-text flex flex-col justify-center items-center">
           <p className="w-[35rem] text-center mb-[1rem] text-gray-500">
           
             I was hoping for a simple oil change, but when I came to this body
@@ -48,7 +49,7 @@ const Review = () => {
           <h1 className="font-bold text-white">Jeremy Watts</h1>
           <p className="mb-[4rem] text-[.9rem] font-thin text-white">Lawyer</p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className=" caraosel-text flex flex-col justify-center items-center">
           <p className="w-[35rem] text-center mb-[1rem] text-gray-500">
             I was hoping for a simple oil change, but when I came to this body
             shop they found an issue with the brakes, and I am so grateful for
@@ -63,7 +64,7 @@ const Review = () => {
           <p className="mb-[5rem] text-[.9rem] font-thin text-white">Lawyer</p>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className=" caraosel-text  flex flex-col justify-center items-center">
           <p className="w-[35rem] text-center mb-[1rem] text-gray-500">
             I was hoping for a simple oil change, but when I came to this body
             shop they found an issue with the brakes, and I am so grateful for

@@ -1,4 +1,87 @@
+
+
+
 .feature-section{
-    margin-bottom: 8rem;
-    width: 100%;
+    /* margin-bottom: 8rem; */
+    /* width: 100%; */
+   
 }
+
+@media only screen and (max-width: 600px) 
+{
+
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  
+    .title h1 {
+        /* display: flex; */
+
+        /* align-content: center; */
+        margin: 0;
+        padding: 0;
+        font-size: 2rem;
+        /* text-align: center; */
+    }
+    .shape{
+   
+    }
+
+    .title p{
+     text-align: center;
+     font-size: 1rem;
+     justify-content: center;
+     width: 20rem;
+
+    }
+
+    .feature-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-section  .feature-btn{
+        /* font-size: 2px; */
+        /* text-align: left; */
+        /* width: 40%; */
+        /* background-color: rgb(208, 17, 17); */
+        margin: 15px auto 50px auto;
+        height: 3rem;
+        
+
+
+    }
+}
+
+@media (width<=740px) {
+    .feature-section{
+        display: flex;
+        flex-direction: column;
+        /* background-color: antiquewhite; */
+        margin-top: 1rem;
+        width: fit-content;
+    
+    
+}
+body{
+    /* overflow-x:hidden;
+    display: flex;
+    flex-direction: row; */
+    
+}
+
+.title h1{
+    width: 100%;
+    margin: 10px auto 10px auto;
+}
+}
+/* 
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */

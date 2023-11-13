@@ -1,3 +1,4 @@
+
 .nav {
   display: flex;
   justify-content: center;
@@ -55,7 +56,10 @@
   align-items: center;
   gap: 1rem;
   width: 35%;
-  margin: 0;
+
+  /* width: fit-content; */
+  /* width: 100%; */
+  margin-right: 0;
   background-color: #211a18;
   color: white;
   height: 6rem;
@@ -68,4 +72,52 @@
   border: 0.1px solid rgb(80, 80, 80);
   color: white;
   font-size: 0.7rem;
+}
+
+.menu{
+  /* display: hidden; */
+  visibility: hidden;
+  width: 0;
+  margin: 0;
+}
+
+@media (width<=740px){
+
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 3px;
+    padding: 0;
+  }
+  .nav{
+    /* overflow-x: hidden; */
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .link{
+    display: none;
+  }
+  .number{
+    display: none;
+  }
+
+  .right{
+    display: none;
+  }
+.menu{
+  /* visibility: visible; */
+  /* display: block; */
+  visibility: visible;
+  width:fit-content;
+  /* margin-right: 2px; */
+  /* background-color: red; */
+}  
+
+.about-us{
+  /* width: fit-content; */
+  display: flex;
+}
 }

@@ -24,7 +24,7 @@ const App = () => {
       <Review />
       <NewsSec />
       <Location />
-      <Footer/>
+      <Footer />
     </Router>
   );
 };

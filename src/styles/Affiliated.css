@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+
+    .affiliated{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+     
+    }
+    .affiliated img{
+    margin-top: 1.4rem;
+    }
+}

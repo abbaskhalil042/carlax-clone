@@ -1,6 +1,7 @@
 import React from "react";
 import images from "../images/asset 7.webp";
 
+
 const SubFeature = () => {
   return (
     <div className="feature flex flex-col justify-center items-center ">

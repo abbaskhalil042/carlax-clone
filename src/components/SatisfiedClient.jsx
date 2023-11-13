@@ -1,15 +1,16 @@
 import React from "react";
+import "../styles/reason.css"
 
 const SatisfiedClient = () => {
   return (
-    <div className="flex justify-center items-center flex-col">
+    <div  className="satisfied">
       <img
         src="data:image/png;base64,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"
         alt=""
       />
       {/* <a href="https://iconscout.com/icons/user" class="text-underline font-size-sm" target="_blank">User</a> by <a href="https://iconscout.com/contributors/users-insights" class="text-underline font-size-sm">Users  Insights</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> */}
       <h1 className="font-extrabold text-5xl  text-white mb-[.9rem]">2332</h1>
-      <p>Years on the Market</p>
+      <p > Years on the Market</p>
     </div>
   );
 };

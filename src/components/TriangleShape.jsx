@@ -1,9 +1,9 @@
 import React from 'react'
 import "../styles/TriangleShape.css"
 
-const TriangleShape = ({className}) => {
+const TriangleShape = ({}) => {
   return (
-    <div className={`triangle-shape ${className}`}>
+    <div className='tri'>
         <div className="shape"></div>
     </div>
   )

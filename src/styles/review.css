@@ -1,0 +1,22 @@
+ @media (width<=740px) {
+    .review-up{
+        display: flex;
+        flex-direction: column;
+    }
+    .text h1{
+        font-size: 1.7rem;
+    }
+    .text p{
+        width: 18rem;
+    }
+    .caraosel-text{
+        margin: auto;
+    }
+    .caraosel-text p{
+        width: fit-content;
+        font-size: .9rem;
+    }
+    .caraosel-text h1{
+        text-align: center;
+    }
+ }

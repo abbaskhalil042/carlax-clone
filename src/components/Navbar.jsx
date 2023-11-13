@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 
 import { TbSearch } from "react-icons/tb";
 import {CiLocationOn} from "react-icons/ci"
+import {AiOutlineMenu} from "react-icons/ai"
 
 
 import "../styles/Nav.css";
 const Navbar = () => {
   return (
-    <div className="nav">
+    <div className="nav ">
       <div className="logo">
         <div className="logo-image">
           <img src={logo} alt="" />
@@ -43,6 +44,7 @@ const Navbar = () => {
 
         <button>MAKE AN APPOINTMENT</button>
       </div>
+      <AiOutlineMenu  className="menu text-4xl" />
     </div>
   );
 };
